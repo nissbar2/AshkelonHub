@@ -1,0 +1,14 @@
+.Rectangle {
+    width: 1920px;
+    height: 222px;
+    background-color: #ffffff;
+  }
+
+  .Line {
+    width: 124px;
+    height: 4px;
+    transform: rotate(-270deg);
+    border-radius: 2px;
+    background-color: #f7f8fd;
+  
+  }
