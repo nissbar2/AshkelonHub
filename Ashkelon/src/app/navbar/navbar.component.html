@@ -1,34 +1,41 @@
 <!--------Navbar------->
 
+<div class="overlay">
 
-<body>
-<nav class="navbar navbar-expand-sm bg-light " >
-  <div class="container-fluid">
-    <ul class="navbar-nav" style="width: 100%">
-      <li class="nav-item">
+<nav class="navbar navbar-expand bg-transparent " style="  padding-right: 0">
+  
+  <div class="container-fluid" >
+    
+    <ul class="navbar-nav"  >
+      
+
+      <li >
           <a routerLink="project" class="nav-link" 
           routerLinkActive="active">
           תוכנית
         </a>
       </li>
-      <li class="nav-item" > 
+      <li  > 
         <a routerLink="info" class="nav-link" 
         routerLinkActive="active">
         אודות
       </a>
     </li>
-    <li class="nav-item" >
+    <li  >
       <a routerLink="contact" class="nav-link"  routerLinkActive="active" > צור קשר</a>
   </li>
-  <li class="nav-item">
-    <a routerLink="home" class="nav-link" routerLinkActive="active">
+  <li >
+    <a routerLink="/home" class="nav-link" routerLinkActive="active">
     בית
   </a>
 </li>
-  <li class="nav-item" >
-    <a routerLink='home' class="nav-link" routerLinkActive="active" ><span><img  src="../assets/image/logo.png" width="60%"></span></a>
-  </li>
+
+   
+
     </ul>
+    <a routerLink='home' class="nav-link" routerLinkActive="active" ><span><img style="float: right;  width: 60%;"  src="../assets/image/logo.png"></span></a>
   </div>
 </nav>
-</body>
+
+</div>
+
